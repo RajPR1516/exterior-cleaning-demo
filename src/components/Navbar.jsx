@@ -14,7 +14,7 @@ function Navbar() {
 
         <Link to="/" className="logo" onClick={closeMenu}>
           <span className="logo-mark">E</span>
-          <span>EverWash</span>
+          <span>Karma Roof Clean Inc.</span>
         </Link>
 
         <button

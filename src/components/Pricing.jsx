@@ -1,17 +1,17 @@
 const pricing = [
   {
     name: "Roof Cleaning",
-    residential: "From $399",
+    residential: "From $499",
     commercial: "Custom"
   },
   {
     name: "Window Washing",
-    residential: "From $149",
+    residential: "From $189",
     commercial: "Custom"
   },
   {
     name: "Gutter Cleaning",
-    residential: "From $149",
+    residential: "From $179",
     commercial: "Custom"
   },
   {

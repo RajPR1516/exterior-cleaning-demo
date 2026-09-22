@@ -1,36 +1,34 @@
+
 const areas = [
-  "Victoria",
-  "Oak Bay",
-  "Saanich",
-  "Esquimalt",
-  "View Royal",
-  "Colwood",
-  "Langford",
-  "Sooke",
-  "Sidney",
-  "North Saanich",
-  "Duncan",
-  "Nanaimo",
-  "Parksville",
-  "Qualicum Beach",
-  "Courtenay",
-  "Comox"
+  "Vancouver",
+  "North Vancouver",
+  "West Vancouver",
+  "Burnaby",
+  "New Westminster",
+  "Richmond",
+  "Coquitlam",
+  "Surrey",
+  "Delta",
+  "Langley",
+  "White Rock",
+  "Maple Ridge",
+  "Aldergrove",
+  "Abbotsford",
+  "Chilliwack",
+  "Mission",
 ];
 
 function ServiceAreas() {
   return (
     <section className="areas-section">
-
       <div className="container areas-grid">
-
         <div>
-
           <span className="eyebrow">SERVICE AREA</span>
 
           <h2>
             Serving communities
             <br />
-            <span>across the Island.</span>
+            <span>across the Lower Mainland.</span>
           </h2>
 
           <p>
@@ -41,24 +39,21 @@ function ServiceAreas() {
           <a href="/contact" className="btn btn-primary">
             Check My Area →
           </a>
-
         </div>
 
         <div className="areas-list">
-
           {areas.map((area) => (
             <span key={area}>
               <i>✓</i>
               {area}
             </span>
           ))}
-
         </div>
-
       </div>
-
     </section>
   );
 }
 
 export default ServiceAreas;
+
+
