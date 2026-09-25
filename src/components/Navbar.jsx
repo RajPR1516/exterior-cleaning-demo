@@ -15,7 +15,17 @@ function Navbar() {
     <header className="navbar">
       <div className="container nav-inner">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-mark">E</span>
+          <img
+            src="/favicon.png"
+            alt="Karma Roof Clean Inc. Logo"
+            style={{
+              width: "100px",
+              height: "100px",
+              objectFit: "contain",
+              display: "block",
+              borderRadius: "6px",
+            }}
+          />
           <div className="logo-text">
             <strong>Karma Roof Clean Inc.</strong>
             <small>EXTERIOR CARE &amp; RESTORATION</small>
