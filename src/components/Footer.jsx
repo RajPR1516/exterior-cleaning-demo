@@ -56,8 +56,8 @@ function Footer() {
             <h4>Contact</h4>
             <a href="tel:+16047711804">+1 (604)771 1804</a>
             <a href="tel:+17782290939">+1 (778)229 0939</a>
-            <a href="mailto:hello@karmaroofclean.com">
-              hello@karmaroofclean.com
+            <a href="mailto:contact@karmaroofcleaninc.com">
+              contact@karmaroofcleaninc.com
             </a>
             <span>Vancouver, BC</span>
           </div>
