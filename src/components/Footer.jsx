@@ -20,7 +20,7 @@ function Footer() {
 
   <div className="logo-text">
     <strong>Karma Roof Clean Inc.</strong>
-    <small>EXTERIOR CARE &amp; RESTORATION</small>
+    <small>EXTERIOR CARE</small>
   </div>
 </Link>
 
@@ -54,11 +54,12 @@ function Footer() {
 
           <div className="footer-column">
             <h4>Contact</h4>
-            <a href="tel:+15555555555">+1 (555) 555-5555</a>
+            <a href="tel:+16047711804">+1 (604)771 1804</a>
+            <a href="tel:+17782290939">+1 (778)229 0939</a>
             <a href="mailto:hello@karmaroofclean.com">
               hello@karmaroofclean.com
             </a>
-            <span>Victoria, BC</span>
+            <span>Vancouver, BC</span>
           </div>
         </div>
 

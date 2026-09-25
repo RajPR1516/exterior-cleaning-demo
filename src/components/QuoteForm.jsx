@@ -124,7 +124,7 @@ function QuoteForm() {
                     name="phone"
                     value={form.phone}
                     onChange={handleChange}
-                    placeholder="+1 555 555 5555"
+                    placeholder="+1(778)229-0939 / +1 (604) 771-1804 "
                     required
                   />
                 </div>
