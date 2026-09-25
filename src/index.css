@@ -1220,6 +1220,9 @@ button {
 /* ========================================
    FOOTER
 ======================================== */
+/* ========================================
+   FOOTER (5-COLUMN LAYOUT)
+======================================== */
 
 .footer {
   background: #080b09;
@@ -1229,41 +1232,43 @@ button {
 
 .footer-top {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 60px;
+  grid-template-columns: 1.5fr 1fr 1fr 1.6fr 1.2fr;
+  gap: 36px;
+  align-items: flex-start;
   padding-bottom: 60px;
 }
 
+/* Brand & Typography */
 .footer-brand > p {
   color: rgba(255, 255, 255, 0.58);
-  max-width: 340px;
+  max-width: 320px;
   font-size: 13px;
-  margin: 20px 0;
+  margin: 18px 0;
+  line-height: 1.6;
+}
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .footer-logo .logo-text strong {
   color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 19px;
+  display: block;
 }
 
 .footer-logo .logo-text small {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-top: 3px;
 }
 
-.footer-rating {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-rating strong {
-  color: #f2a08f;
-  letter-spacing: 2px;
-}
-
-.footer-rating span {
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.5);
-}
-
+/* Columns */
 .footer-column {
   display: flex;
   flex-direction: column;
@@ -1272,26 +1277,58 @@ button {
 
 .footer-column h4 {
   font-family: "Manrope", sans-serif;
-  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
 }
 
 .footer-column a,
 .footer-column span {
   color: rgba(255, 255, 255, 0.58);
-  font-size: 12px;
+  font-size: 13px;
+  transition: color 0.2s ease;
 }
 
 .footer-column a:hover {
   color: #f2a08f;
 }
 
+/* Trust Banner Column */
+.footer-badges .banner-wrapper {
+  margin-top: 2px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #000;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-trust-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.badge-subtitle {
+  font-size: 11px !important;
+  color: var(--gray) !important;
+  margin-top: 8px;
+  display: block;
+  line-height: 1.4;
+}
+
+/* Footer Bottom Bar */
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 23px 0;
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: rgba(255, 255, 255, 0.4);
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .footer-bottom div {
@@ -1299,6 +1336,69 @@ button {
   gap: 20px;
 }
 
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.4);
+  transition: color 0.2s ease;
+}
+
+.footer-bottom a:hover {
+  color: #f2a08f;
+}
+
+/* ========================================
+   FOOTER RESPONSIVE QUERIES
+======================================== */
+
+/* Large Tablets & Small Laptops (max 1024px) */
+@media (max-width: 1024px) {
+  .footer-top {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+}
+
+/* Tablets (max 900px) */
+@media (max-width: 900px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .footer-badges {
+    grid-column: span 2;
+  }
+
+  .footer-badges .banner-wrapper {
+    max-width: 420px;
+  }
+}
+
+/* Mobile Devices (max 600px) */
+@media (max-width: 600px) {
+  .footer {
+    padding-top: 60px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-bottom: 45px;
+  }
+
+  .footer-badges {
+    grid-column: span 1;
+  }
+
+  .footer-badges .banner-wrapper {
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+  }
+}
 /* ========================================
    INNER PAGES
 ======================================== */
