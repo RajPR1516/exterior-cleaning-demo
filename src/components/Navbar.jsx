@@ -28,7 +28,7 @@ function Navbar() {
           />
           <div className="logo-text">
             <strong>Karma Roof Clean Inc.</strong>
-            <small>EXTERIOR CARE &amp; RESTORATION</small>
+            <small>EXTERIOR CARE </small>
           </div>
         </Link>
 
