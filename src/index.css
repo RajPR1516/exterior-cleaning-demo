@@ -102,11 +102,9 @@ button {
   top: 0;
   z-index: 5000;
   width: 100%;
-  background: rgba(8, 11, 9, 0.96);
+  background: #050605; /* Exact dark tone matching the image tile */
   border-bottom: 1px solid rgba(111, 143, 99, 0.18);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .nav-inner {
