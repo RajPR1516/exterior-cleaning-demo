@@ -26,6 +26,7 @@ function Footer() {
             <Link to="/services">Services</Link>
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/gallery">Transformations</Link>
           </div>
 
           {/* Column 3: Services */}

@@ -58,6 +58,10 @@ function Navbar() {
             Contact
           </Link>
 
+          <Link to="/gallery" onClick={closeMenu}>
+              Transformations
+          </Link>
+
           <Link
             to="/contact"
             className="nav-cta"
