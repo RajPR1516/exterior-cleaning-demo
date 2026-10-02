@@ -9,8 +9,8 @@ const projects = [
     tag: "Roof Revival & Moss Removal",
     location: "Vancouver, BC",
     title: "Heavy Cedar Shingle Moss Treatment",
-    beforeImg: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    beforeImg: " ./public/img2a.jpeg",
+    afterImg: " ./public/img22.jpeg",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const projects = [
     tag: "Gutter Deep Clean",
     location: "Burnaby, BC",
     title: "Blocked Eavestrough & Downspout Flush",
-    beforeImg: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+    beforeImg: " ./public/img1a.jpeg ",
+    afterImg: "  ./public/img44.jpeg ",
   },
   {
     id: 3,
@@ -27,8 +27,8 @@ const projects = [
     tag: "Surface Washing",
     location: "Richmond, BC",
     title: "Algae-Covered Interlock Driveway",
-    beforeImg: "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    beforeImg: "./public/img3a.jpeg ",
+    afterImg: "./public/img33.jpeg ",
   },
   {
     id: 4,
@@ -36,8 +36,8 @@ const projects = [
     tag: "Soft Washing",
     location: "North Vancouver, BC",
     title: "Asphalt Shingle Black Streak Removal",
-    beforeImg: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    beforeImg: " ./public/img4a.jpeg ",
+    afterImg: " ./public/img55.jpeg",
   },
 ];
 
