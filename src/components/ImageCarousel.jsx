@@ -10,19 +10,19 @@ const slides = [
   },
   {
     id: 2,
-    image:"./public/img22.jpeg",
+    image:"/public/img22.jpeg",
     title: "High-Pressure Driveway Wash",
     subtitle: "Clearing algae, stubborn stains, and grime",
   },
   {
     id: 3,
-    image: "./public/img33.jpeg",
+    image: "/public/img33.jpeg",
     title: "Full Exterior Soft Wash",
     subtitle: "Gentle low-pressure cleaning safe for siding and stucco",
   },
   {
     id: 4,
-    image: "./public/img44.jpeg",
+    image: "/public/img44.jpeg",
     title: "Gutter & Downspout Detailing",
     subtitle: "Preventing water overflow and foundation damage",
   },
