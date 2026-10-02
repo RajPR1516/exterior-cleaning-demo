@@ -18,16 +18,16 @@ const featuredTransformations = [
     tag: "Roof Revival & Moss Removal",
     location: "Vancouver, BC",
     title: "Heavy Cedar Shingle Moss Treatment",
-    beforeImg: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    beforeImg: "/img2a.jpeg",
+    afterImg: "/img22.jpeg",
   },
   {
     id: 2,
-    tag: "Surface Washing",
-    location: "Richmond, BC",
-    title: "Algae-Covered Interlock Driveway",
-    beforeImg: "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    tag: "Gutter Deep Clean",
+    location: "Burnaby, BC",
+    title: "Blocked Eavestrough & Downspout Flush",
+    beforeImg: "/img1a.jpeg",
+    afterImg: "/img44.jpeg",
   },
 ];
 
