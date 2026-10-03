@@ -18,16 +18,16 @@ const featuredTransformations = [
     tag: "Roof Revival & Moss Removal",
     location: "Vancouver, BC",
     title: "Heavy Cedar Shingle Moss Treatment",
-    beforeImg: "/img2a.jpeg",
-    afterImg: "/img22.jpeg",
+    beforeImg: "/before-1.jpeg",
+    afterImg: "/after-2.jpeg",
   },
   {
     id: 2,
     tag: "Gutter Deep Clean",
     location: "Burnaby, BC",
     title: "Blocked Eavestrough & Downspout Flush",
-    beforeImg: "/img1a.jpeg",
-    afterImg: "/img44.jpeg",
+    beforeImg: "/before-1.jpeg",
+    afterImg: "/after-1.jpeg",
   },
 ];
 
