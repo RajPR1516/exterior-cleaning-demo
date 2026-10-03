@@ -9,8 +9,8 @@ const projects = [
     tag: "Roof Revival & Moss Removal",
     location: "Vancouver, BC",
     title: "Heavy Cedar Shingle Moss Treatment",
-    beforeImg: "/img2a.jpeg",
-    afterImg: "/img22.jpeg",
+    beforeImg: "/before-2.jpeg",
+    afterImg: "/after-2.jpeg",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const projects = [
     tag: "Gutter Deep Clean",
     location: "Burnaby, BC",
     title: "Blocked Eavestrough & Downspout Flush",
-    beforeImg: "/img1a.jpeg",
-    afterImg: "/img44.jpeg",
+    beforeImg: "/before-1.jpeg",
+    afterImg: "/after-1.jpeg",
   },
   {
     id: 3,
@@ -36,8 +36,8 @@ const projects = [
     tag: "Soft Washing",
     location: "North Vancouver, BC",
     title: "Asphalt Shingle Black Streak Removal",
-    beforeImg: "/img4a.jpeg",
-    afterImg: "/img55.jpeg",
+    beforeImg: "/before-3.jpeg",
+    afterImg: "/after-3.jpeg",
   },
 ];
 

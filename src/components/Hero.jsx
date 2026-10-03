@@ -44,13 +44,7 @@ function Hero() {
             <small>Customer Rating</small>
           </div>
 
-          <div className="trust-divider"></div>
-
-          <div>
-            <strong>10+</strong>
-            <small>Years Experience</small>
-          </div>
-
+         
           <div className="trust-divider"></div>
 
           <div>
