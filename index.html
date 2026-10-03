@@ -1,35 +1,161 @@
 <!doctype html>
-<html lang="en-ca">
+<html lang="en-CA">
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
-
+  <!-- Primary Canadian SEO Meta Tags -->
+  <title>EverWash | Professional Exterior Cleaning & Pressure Washing Canada</title>
   <meta
     name="description"
-    content="Professional roof cleaning, window washing, gutter cleaning and pressure washing."
+    content="Top-rated exterior cleaning services across Canada. Specializing in soft roof cleaning, streak-free window washing, gutter clearing, and commercial & residential pressure washing."
   />
-
   <meta
-    name="theme-color"
-    content="#173d34"
+    name="keywords"
+    content="roof cleaning, window washing Canada, gutter cleaning, pressure washing, power washing, exterior house washing, soft wash, commercial pressure washing"
   />
+  <meta name="author" content="EverWash Exterior Cleaning" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
+  <!-- Canonical URL (Replace with your actual domain) -->
+  <link rel="canonical" href="https://www.everwash.ca/" />
+
+  <!-- Geo-Targeting Meta Tags for Local Canadian SEO (Update with your specific province/city) -->
+  <meta name="geo.region" content="CA-ON" /> <!-- e.g., CA-ON (Ontario), CA-BC (British Columbia), CA-AB (Alberta) -->
+  <meta name="geo.placename" content="Toronto" /> <!-- Replace with your primary Canadian city -->
+  <meta name="geo.position" content="43.6532;-79.3832" /> <!-- Replace with your business latitude;longitude -->
+  <meta name="ICBM" content="43.6532, -79.3832" />
+
+  <!-- Theme & Mobile Styling -->
+  <meta name="theme-color" content="#173d34" />
+  <meta name="apple-mobile-web-app-title" content="EverWash" />
+  <meta name="application-name" content="EverWash Exterior Cleaning" />
+
+  <!-- Favicon & Icons -->
   <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-  <title>EverWash Exterior Cleaning</title>
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.everwash.ca/" />
+  <meta property="og:site_name" content="EverWash Exterior Cleaning" />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:title" content="EverWash | Professional Exterior Cleaning & Pressure Washing Canada" />
+  <meta
+    property="og:description"
+    content="Reliable, insured exterior cleaning services. Roof soft-washing, gutter guard maintenance, window washing, and hot pressure washing."
+  />
+  <meta property="og:image" content="https://www.everwash.ca/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="EverWash Exterior Cleaning Team in Action" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EverWash | Professional Exterior Cleaning & Pressure Washing Canada" />
+  <meta
+    name="twitter:description"
+    content="Reliable, insured exterior cleaning services across Canada. Get a fast, free quote today."
+  />
+  <meta name="twitter:image" content="https://www.everwash.ca/og-image.jpg" />
+
+  <!-- Structured Data: LocalBusiness / HomeAndConstructionBusiness Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "EverWash Exterior Cleaning",
+      "image": "https://www.everwash.ca/og-image.jpg",
+      "@id": "https://www.everwash.ca/#business",
+      "url": "https://www.everwash.ca/",
+      "telephone": "+1-800-555-0199",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main Street",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "postalCode": "M5V 2T6",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Ontario"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Exterior Cleaning Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Roof Soft Washing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Window Cleaning"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gutter Cleaning"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pressure Washing"
+            }
+          }
+        ]
+      }
+    }
+  </script>
 </head>
 
 <body>
+  <noscript>
+    <div style="padding: 20px; text-align: center; font-family: sans-serif;">
+      <h1>EverWash Exterior Cleaning</h1>
+      <p>Professional roof cleaning, window washing, gutter cleaning, and pressure washing across Canada.</p>
+      <p>Please enable JavaScript to view the full website.</p>
+    </div>
+  </noscript>
 
   <div id="root"></div>
 
   <script type="module" src="/src/main.jsx"></script>
-
 </body>
 
 </html>
