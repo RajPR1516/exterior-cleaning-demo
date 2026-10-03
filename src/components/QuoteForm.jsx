@@ -61,7 +61,8 @@ function QuoteForm() {
               <span>☎</span>
               <div>
                 <small>CALL US</small>
-                <strong>+1 (555) 555-5555</strong>
+                <strong>+1 (778) 229-0939 </strong>
+                <strong>+1 (604) 771-1804</strong>
               </div>
             </a>
 
@@ -69,7 +70,7 @@ function QuoteForm() {
               <span>✉</span>
               <div>
                 <small>EMAIL</small>
-                <strong>hello@everwash.com</strong>
+                <strong>contact@karmaroofcleaninc.com</strong>
               </div>
             </a>
 
